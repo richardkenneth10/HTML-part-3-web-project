@@ -19,5 +19,8 @@
   "homepage": "https://github.com/richardkenneth10/HTML-part-3-web-project#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "node-sass": "^7.0.1"
   }
 }
