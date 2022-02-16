@@ -869,7 +869,23 @@ a {
   opacity: 0.3;
 }
 
+.footer .callout {
+  transform: translateY(0);
+  width: 100%;
+  transform: scaleX(1.1);
+  margin-top: calc(var(--padding-vertical) * -1);
+  margin-right: -10px;
+}
+
+.footer .callout a {
+  color: #fff;
+}
+
 @media screen and (min-width: 768px) {
+  .footer {
+    margin-top: 10rem;
+  }
+
   .footer__sections {
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
@@ -898,5 +914,9 @@ a {
 
   .footer__heading {
     font-size: 1.6rem;
+  }
+
+  .footer .callout {
+    transform: translateY(-130px) scaleX(1.0);
   }
 }
